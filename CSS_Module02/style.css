@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(to right,darkblue, black );
+    
+}
+p {
+    color:lightgoldenrodyellow;
+}
+
+h2 {
+    color: whitesmoke;
+}
+.RCB {
+    background-image: linear-gradient(to right, purple, coral);
+}
+@keyframes Boy {
+    from{
+        color: aqua;
+    }
+    to {
+        color: gold;
+    }
+}
+.PBKS {
+    animation: Boy 2s infinite alternate;
+}
